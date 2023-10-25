@@ -64,7 +64,7 @@ function Header() {
 					<h1 className={classes.header__title}>
 						Компьютерный клуб <br></br>{' '}
 						<p className={classes.header__secondTitle}>
-							Идеальное место для геймеров
+							Идеальное место для gamers
 						</p>
 					</h1>
 				</div>
