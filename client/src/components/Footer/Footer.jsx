@@ -1,7 +1,7 @@
 import classes from './Footer.module.css'
 
 function Footer() {
-	return <div className={classes}></div>
+	return <footer className={classes.footer}></footer>
 }
 
 export default Footer

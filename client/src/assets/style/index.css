@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/futura-pt');
+@import url('https://db.onlinewebfonts.com/c/5bdac91b83b25ea168302ffbc40909de?family=Futura+PT+Demi');
 
 html {
 	box-sizing: border-box;
@@ -16,4 +17,8 @@ body {
 	font-weight: normal;
 	line-height: 1.5;
 	color: #333;
+}
+
+div {
+	display: block;
 }
