@@ -139,22 +139,6 @@ ul {
 	padding-bottom: 181px;
 }
 
-@media screen and (max-width: 1300px) {
-	.header__content {
-		display: block;
-		padding-top: 96px;
-		padding-bottom: 121px;
-	}
-}
-
-@media screen and (max-width: 720px) {
-	.header__content {
-		display: block;
-		padding-top: 0;
-		padding-bottom: 68px;
-	}
-}
-
 .header__title {
 	display: block;
 	position: relative;
@@ -207,47 +191,13 @@ ul {
 	z-index: -1;
 }
 
-@media screen and (max-width: 1300px) {
-	.header__title {
-		font-size: 60px;
-		margin-bottom: 41px;
-		line-height: 1;
-		padding-top: 30px;
-		padding-right: 5%;
-	}
-}
-
-@media screen and (max-width: 992px) {
-	.header__title {
-		margin-bottom: 31px;
-		font-size: 40px;
-	}
-}
-
-@media screen and (max-width: 720px) {
-	.header__title {
-		font-size: 30px;
-		line-height: 1;
-		margin-bottom: 21px;
-		padding-top: 21px;
-		padding-bottom: 22px;
-	}
-}
-
-@media screen and (max-width: 576px) {
-	.header__title {
-		padding-right: 0;
-	}
-}
-
 .header__advantages {
 	display: flex;
 	flex-direction: row;
 	align-items: start;
-	justify-content: center;
+	justify-content: space-between;
 	width: 100%;
 	height: auto;
-	padding: 0px 10px;	
 }
 
 .header__advantages_box {
@@ -260,35 +210,114 @@ ul {
 
 .header__advantages_box:not(:last-child) {
 	margin-right: 40px;
-} 
+}
 
 .advantages__h2 {
 	position: relative;
 	align-self: flex-start;
-    font-family: "Futura PT Demi", sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 0.8;
-    color: #fff;
-    margin-bottom: 9px;
-    padding-bottom: 15px;
+	font-family: 'Futura PT Demi', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 0.8;
+	color: #fff;
+	margin-bottom: 9px;
+	padding-bottom: 15px;
 }
 
 .advantages__h2::after {
-		content: '';
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		display: block;
-		width: 50px;
-		height: 1px;
-		background-color: #8cc63f;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 50px;
+	height: 1px;
+	background-color: #8cc63f;
 }
 
 .advantages__description {
-	font-family: "Lato", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #fff;
+}
+
+@media screen and (max-width: 1300px) {
+	.header__content {
+		display: block;
+		padding-top: 96px;
+		padding-bottom: 121px;
+	}
+
+	.advantages__h2 {
+		position: relative;
+		align-self: flex-start;
+		font-family: 'Futura PT Demi', sans-serif;
+		font-size: 40px;
+		font-weight: 600;
+		line-height: 0.8;
+		color: #fff;
+		margin-bottom: 9px;
+		padding-bottom: 15px;
+	}
+
+	.header__advantages {
+		display: flex;
+		flex-direction: row;
+		align-items: start;
+		justify-content: space-around;
+		width: 100%;
+		height: auto;
+		padding: 0px 20px;
+	}
+
+	.header__title {
+		font-size: 60px;
+		margin-bottom: 41px;
+		line-height: 1;
+		padding-top: 30px;
+		padding-right: 5%;
+	}
+
+	.header__secondTitle {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.header__title {
+		margin-bottom: 31px;
+		font-size: 40px;
+	}
+
+	.header__secondTitle {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.header__content {
+		display: block;
+		padding-top: 0;
+		padding-bottom: 68px;
+	}
+
+	.header__title {
+		font-size: 30px;
+		line-height: 1;
+		margin-bottom: 21px;
+		padding-top: 21px;
+		padding-bottom: 22px;
+	}
+
+	.header__secondTitle {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.header__title {
+		padding-right: 0;
+	}
 }
