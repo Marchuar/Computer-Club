@@ -68,7 +68,12 @@ function Header() {
 						</p>
 					</h1>
 				</div>
-				<div className={classes.header__advantages}></div>
+				<div className={classes.header__advantages}>
+					<div className={classes.header__advantages_box}><h2 className={classes.advantages__h2}>24+</h2><p className={classes.advantages__description}>Мощных игровых машин в одном клубе</p></div>
+					<div className={classes.header__advantages_box}><h2 className={classes.advantages__h2}>50+</h2><p className={classes.advantages__description}>Современных игр</p></div>
+					<div className={classes.header__advantages_box}><h2 className={classes.advantages__h2}>24/7</h2><p className={classes.advantages__description}>Компьютерные клубы работают круглосуточно и без выходных</p></div>
+					<div className={classes.header__advantages_box}><h2 className={classes.advantages__h2}>200+</h2><p className={classes.advantages__description}>Турниров планируется провести за ближайший год в компьютерных клубах</p></div>
+				</div>
 			</div>
 		</header>
 	)

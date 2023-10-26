@@ -3,7 +3,6 @@
 	background-color: #101c44;
 	background-image: url('../../assets/style/Images/page-header-bg.jpg');
 	width: 100%;
-	height: 1000px;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -122,7 +121,7 @@ ul {
 	max-width: 1270px;
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 0px;
 }
 
 .header__inner_fixed {
@@ -131,7 +130,7 @@ ul {
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 225px;
-	padding: 0 15px;
+	padding: 0px;
 }
 
 .header__content {
@@ -140,7 +139,7 @@ ul {
 	padding-bottom: 181px;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1300px) {
 	.header__content {
 		display: block;
 		padding-top: 96px;
@@ -169,6 +168,7 @@ ul {
 	padding-top: 32px;
 	padding-bottom: 33px;
 	padding-right: 18%;
+	padding-left: 30px;
 	margin-bottom: 32px;
 	margin-top: 0;
 	margin-block-start: 0.67em;
@@ -207,12 +207,12 @@ ul {
 	z-index: -1;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1300px) {
 	.header__title {
-		font-size: 70px;
+		font-size: 60px;
 		margin-bottom: 41px;
 		line-height: 1;
-		padding-top: 50px;
+		padding-top: 30px;
 		padding-right: 5%;
 	}
 }
@@ -220,6 +220,7 @@ ul {
 @media screen and (max-width: 992px) {
 	.header__title {
 		margin-bottom: 31px;
+		font-size: 40px;
 	}
 }
 
@@ -241,4 +242,53 @@ ul {
 
 .header__advantages {
 	display: flex;
+	flex-direction: row;
+	align-items: start;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	padding: 0px 10px;	
+}
+
+.header__advantages_box {
+	display: flex;
+	max-width: 170px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header__advantages_box:not(:last-child) {
+	margin-right: 40px;
+} 
+
+.advantages__h2 {
+	position: relative;
+	align-self: flex-start;
+    font-family: "Futura PT Demi", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 0.8;
+    color: #fff;
+    margin-bottom: 9px;
+    padding-bottom: 15px;
+}
+
+.advantages__h2::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		display: block;
+		width: 50px;
+		height: 1px;
+		background-color: #8cc63f;
+}
+
+.advantages__description {
+	font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
 }
