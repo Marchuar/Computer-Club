@@ -1,0 +1,131 @@
+.main__page {
+	display: block;
+}
+
+.main__page_fixed {
+	margin-top: 170px;
+}
+
+.main__section {
+	display: block;
+	padding-top: 33px;
+	padding-bottom: 100px;
+	background-image: url('../../../assets/style/Images/pricespage_bg.png');
+	background-size: 441px 442px;
+	background-position: left 0;
+	background-repeat: no-repeat;
+}
+
+.main__container {
+	display: block;
+	max-width: 1270px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.main__text {
+	display: table;
+	width: 100%;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 0 60px;
+	-webkit-text-size-adjust: 100%;
+}
+
+.main__heading {
+	display: block;
+	margin-bottom: 40px;
+}
+
+.main__heading_title {
+	position: relative;
+	padding-bottom: 33px;
+	font-size: 60px;
+	line-height: 0.9;
+	font-family: 'Futura PT Demi', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.main__heading_title::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 85px;
+	height: 1px;
+	background-color: #8cc63f;
+}
+
+.main__rules_pre {
+	display: block;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.5;
+	font-weight: bold;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+ol {
+	display: block;
+	list-style-type: decimal;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+	color: #fff;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.main__text ol li {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5;
+	margin: 14px 0;
+	padding-left: 10px;
+}
+
+.rules__first_p {
+	margin-top: 50px;
+	border-top: 1px solid;
+	padding-top: 30px;
+	margin-bottom: 0.5rem;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 1270px) {
+	.main__section {
+		padding-bottom: 80px;
+	}
+
+	.main__container {
+		max-width: 960px;
+	}
+
+	.main__heading_title {
+		font-size: 50px;
+	}
+}
