@@ -41,7 +41,7 @@ function Price() {
 
 							<div className={classes.price__table_descr}>
 								<span>Stunde</span>
-								<b>59-89 рублей</b>
+								<b>1,99-3,99 Euro</b>
 							</div>
 						</div>
 
@@ -52,7 +52,7 @@ function Price() {
 
 							<div className={classes.price__table_descr}>
 								<span>Nacht</span>
-								<b>399 рублей</b>
+								<b>12,99 Euro</b>
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@ function Price() {
 
 							<div className={classes.price__table_descr}>
 								<span>Paketangebote</span>
-								<b>от 150 рублей</b>
+								<b>ab 7,99 Euro</b>
 							</div>
 						</div>
 

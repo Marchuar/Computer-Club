@@ -64,15 +64,15 @@ function Main({ scroll }) {
 												<span>Montag - Donnerstag von 14:00 bis 5:00 Uhr</span>
 											</td>
 											<td>
-												<span>59 р.</span>
+												<span>1,99 Euro</span>
 											</td>
 
 											<td>
-												<span>79 р.</span>
+												<span>2,49 Euro</span>
 											</td>
 
 											<td>
-												<span>89 р.</span>
+												<span>3,99 Euro</span>
 											</td>
 										</tr>
 										<tr id='bx_3218110189_195956'>
@@ -83,15 +83,15 @@ function Main({ scroll }) {
 												<span>Freitag - Sonntag von 14:00 bis 17:00 Uhr</span>
 											</td>
 											<td>
-												<span>69 р.</span>
+												<span>2,29 Euro</span>
 											</td>
 
 											<td>
-												<span>89 р.</span>
+												<span>2,99 Euro</span>
 											</td>
 
 											<td>
-												<span>99 р.</span>
+												<span>4,49 Euro</span>
 											</td>
 										</tr>
 										<tr id='bx_3218110189_195957'>
@@ -102,15 +102,15 @@ function Main({ scroll }) {
 												<span>Montag - Freitag 05:00 bis 14:00 Uhr</span>
 											</td>
 											<td>
-												<span>49 р.</span>
+												<span>1,49 Euro</span>
 											</td>
 
 											<td>
-												<span>59 р.</span>
+												<span>2,19 Euro</span>
 											</td>
 
 											<td>
-												<span>69 р.</span>
+												<span>3,19 Euro</span>
 											</td>
 										</tr>
 										<tr id='bx_3218110189_195958'>
@@ -121,15 +121,15 @@ function Main({ scroll }) {
 												<span>Samstag - Sonntag von 05:00 bis 14:00 Uhr</span>
 											</td>
 											<td>
-												<span>49 р.</span>
+												<span>1,69 Euro</span>
 											</td>
 
 											<td>
-												<span>59 р.</span>
+												<span>2,39 Euro</span>
 											</td>
 
 											<td>
-												<span>69 р.</span>
+												<span>3,39 Euro</span>
 											</td>
 										</tr>
 										<tr id='bx_3218110189_195959'>
@@ -140,15 +140,15 @@ function Main({ scroll }) {
 												<span>Montag - Freitag von 22:00 bis 08:00 Uhr</span>
 											</td>
 											<td>
-												<span>349 р.</span>
+												<span>11,99 Euro</span>
 											</td>
 
 											<td>
-												<span>399 р.</span>
+												<span>13,99 Euro</span>
 											</td>
 
 											<td>
-												<span>499 р.</span>
+												<span>15,99 Euro</span>
 											</td>
 										</tr>
 										<tr id='bx_3218110189_195960'>
@@ -159,15 +159,15 @@ function Main({ scroll }) {
 												<span>Samstag - Sonntag von 22:00 bis 08:00 Uhr</span>
 											</td>
 											<td>
-												<span>399 р.</span>
+												<span>12,99 Euro</span>
 											</td>
 
 											<td>
-												<span>449 р.</span>
+												<span>14,99 Euro</span>
 											</td>
 
 											<td>
-												<span>549 р.</span>
+												<span>16,99 Euro</span>
 											</td>
 										</tr>
 									</tbody>

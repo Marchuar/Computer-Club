@@ -52,9 +52,10 @@ function Main({ scroll }) {
 								nicht unbeaufsichtigt!
 							</li>
 							<li>
-								Администрация Клуба не несет ответственности за сохранность
-								Ваших вещей, поэтому будьте внимательны и не оставляйте их без
-								присмотра!
+								Der Administrator ist verpflichtet, dem Kunden bei technischen
+								Problemen Hilfe zu leisten. Der Administrator ist nicht
+								verpflichtet, dem Kunden den Umgang mit einem Computer sowie den
+								Umgang mit bestimmten Programmen und Spielen beizubringen.
 							</li>
 							<li>
 								Im Club ist außerdem Folgendes verboten:
