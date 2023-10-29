@@ -10,45 +10,46 @@ function Main({ scroll }) {
 					<div className={classes.main__container}>
 						<div className={classes.main__heading}>
 							<h1 className={classes.main__heading_title}>
-								Правила посещения компьютерного клуба Name
+								Regeln für den Besuch des Computerclubs GamingGladius
 							</h1>
 						</div>
 					</div>
 
 					<div className={classes.main__text}>
 						<div className={classes.main__rules_pre}>
-							Мы надеемся, что вы с пониманием отнесетесь ко всем Правилам
-							нашего клуба. <br></br>
-							Посещая наш клуб, вы автоматически соглашаетесь с Правилами клуба.
+							Wir hoffen, dass Sie alle Regeln unseres Clubs verstehen.{' '}
+							<br></br>
+							Durch Ihren Besuch in unserem Club stimmen Sie automatisch den
+							Clubregeln zu.
 						</div>
 
 						<ol>
 							<li>
-								Name – не просто компьютерный клуб, это настоящее комьюнити
-								геймеров, где уважение и взаимопонимание – основополагающие
-								вещи. Не допускается оскорбление и дискриминация
-								других,&nbsp;нецензурная брань и агрессивное поведение.
+								GamingGladius - ist nicht nur ein Computerclub, sondern eine
+								echte Spielergemeinschaft, in der Respekt und gegenseitiges
+								Verständnis von grundlegender Bedeutung sind. Beleidigungen und
+								Diskriminierungen anderer sowie die Verwendung obszöner Sprache
+								und aggressives Verhalten sind nicht gestattet.
 							</li>
 							<li>
-								Мы выступаем против алкоголя, курения и других вредных привычек.
-								Геймеры в нетрезвом состоянии, в состоянии наркотического
-								опьянения, а также в грязной одежде, либо распространяющие запах
-								не обслуживаются и удаляются из клуба.
+								Wir sind gegen Alkohol, Rauchen und andere schlechte
+								Gewohnheiten. Spieler, die betrunken sind, unter Drogeneinfluss
+								stehen, schmutzige Kleidung tragen oder einen Geruch verbreiten,
+								werden nicht bedient und aus dem Club verwiesen.
 							</li>
 							<li>
-								Не допускается использование вредоносного ПО, чит-кодов и
-								мошеннических программ, способных причинить вред клубу и его
-								посетителям.
+								Der Einsatz von Schadsoftware, Cheat-Codes und betrügerischen
+								Programmen, die dem Club und seinen Besuchern Schaden zufügen
+								könnten, ist nicht gestattet.
 							</li>
 							<li>
-								Запрещено мусорить в компьютерном клубе и на прилегающей к нему
-								территории.
+								Im Computerclub und in der Umgebung ist das Wegwerfen von Müll
+								verboten.
 							</li>
 							<li>
-								Администратор обязан оказывать помощь клиенту в случае
-								возникновения технических проблем. Администратор не обязан
-								обучать клиента работе с компьютером, а также работе с
-								конкретными программами и играми.
+								Die Clubverwaltung ist nicht für die Sicherheit Ihres Eigentums
+								verantwortlich. Seien Sie also vorsichtig und lassen Sie es
+								nicht unbeaufsichtigt!
 							</li>
 							<li>
 								Администрация Клуба не несет ответственности за сохранность
@@ -56,95 +57,100 @@ function Main({ scroll }) {
 								присмотра!
 							</li>
 							<li>
-								Так же в клубе запрещено:
+								Im Club ist außerdem Folgendes verboten:
 								<ul>
 									<li>
-										* качаться с усилием на кресле, кататься на кресле по
-										территории игрового зала;&nbsp;
+										* mühsam auf einem Stuhl schwingen, auf einem Stuhl durch
+										die Spielhalle fahren;&nbsp;
 									</li>
 									<li>
-										* употреблять в пищу сухарики, чипсы и другие рассыпчатые
-										продукты в игровой зоне;
+										* Cracker, Chips und andere krümelige Lebensmittel im
+										Spielbereich essen;
 									</li>
 									<li>
-										* спать или находиться в компьютерном зале клуба, не оплатив
-										рабочее время за компьютером;
-									</li>
-									<li>* курить сигареты и IQOS (айкос) на территории клуба;</li>
-									<li>
-										* находиться в помещении клуба в состоянии алкогольного или
-										наркотического опьянения;
-									</li>
-									<li>* употреблять нецензурные выражения в клубе;</li>
-									<li>* мусорить в клубе и на прилегающей территоррии;</li>
-									<li>
-										* проявлять неуважение к персоналу или посетителям клуба;
+										* im Computerraum des Clubs schlafen oder bleiben, ohne für
+										die Arbeitszeit am Computer zu bezahlen;
 									</li>
 									<li>
-										* наносить материальный ущерб клубу (включая умышленное
-										повреждение программного обеспечения);
+										* auf dem Gelände des Clubs Zigaretten und IQOS rauchen;
 									</li>
 									<li>
-										* самостоятельно передвигать монитор, системный блок,
-										разъединять составные части компьютера и сети, прикасаться к
-										элементам электросети, питающие компьютеры и сетевые
-										устройства;
+										* sich im Zustand einer Alkohol- oder Drogenvergiftung auf
+										dem Clubgelände aufhalten;
+									</li>
+									<li>* obszöne Sprache im Club verwenden;</li>
+									<li>* Müll im Verein und in der Umgebung;</li>
+									<li>
+										* Respektlosigkeit gegenüber den Mitarbeitern oder Besuchern
+										des Clubs zeigen;
 									</li>
 									<li>
-										* запрещается находиться в клубе без оплаты игрового
-										времени, а также создавать помехи и неудобства другим
-										геймерам.
+										* dem Club materiellen Schaden zufügen (einschließlich
+										vorsätzlicher Beschädigung der Software);
+									</li>
+									<li>
+										* Bewegen Sie den Monitor und die Systemeinheit
+										selbstständig, trennen Sie die Komponenten des Computers und
+										des Netzwerks, berühren Sie die Elemente des Stromnetzes,
+										die Computer und Netzwerkgeräte mit Strom versorgen;
+									</li>
+									<li>
+										* Es ist verboten, sich ohne Bezahlung der Spielzeit im Club
+										aufzuhalten und anderen Spielern Störungen und
+										Unannehmlichkeiten zu bereiten.
 									</li>
 								</ul>
 							</li>
 							<li>
-								Если в результате действий геймера клуб понес материальный
-								ущерб, необходимо полностью компенсировать этот ущерб:
+								Wenn dem Verein durch die Handlungen des Spielers ein
+								materieller Schaden entstanden ist, ist es erforderlich, diesen
+								Schaden vollständig zu ersetzen:
 								<ul>
-									<li>Телевизор - 30000 рублей;</li>
-									<li>Стол игровой - 5000 рублей;</li>
-									<li>Кресло - 22000 рублей;</li>
-									<li>Наушники - 5000 рублей;</li>
-									<li>Монитор - 18 000 рублей;</li>
-									<li>Мышь - 3000 рублей;</li>
-									<li>Клавиатура - 6000 рублей;</li>
+									<li>Fernseher - 1.000 Euro;</li>
+									<li>Spieltisch - 200 Euro;</li>
+									<li>Stuhl - 500 Euro;</li>
+									<li>Kopfhörer - 150 Euro;</li>
+									<li>Monitor - 500 Euro;</li>
+									<li>Maus - 80 Euro;</li>
+									<li>Tastatur - 150 Euro;</li>
+									<li>Nachschubterminal – von 1.000 bis 3.000 Euro;</li>
+									<li>Spielmatte - 20 Euro.</li>
 									<li>
-										Терминал пополнения средств - от 15000 до 100000 рублей;
-									</li>
-									<li>Игровой коврик - 1000 рублей.</li>
-									<li>
-										*Стоимость иного оборудования, не указанного в п.8 настоящих
-										правил, можно уточнить у администрации.
+										*Die Kosten für andere Ausrüstung, die nicht in Abschnitt 8
+										dieser Regeln aufgeführt ist, können mit der Verwaltung
+										geklärt werden.
 									</li>
 								</ul>
 							</li>
 							<li>
-								Администрация клуба имеет право удалить геймера из клуба без
-								возврата денег при нарушении правил.
+								Die Clubverwaltung hat das Recht, einen Spieler ohne
+								Rückerstattung aus dem Club zu entfernen, wenn gegen die Regeln
+								verstoßen wird.
 							</li>
 							<li>
 								{' '}
-								Компьютерный клуб "Name" является частным заведением, поэтому
-								администрация вправе отказать в посещении клуба любому клиенту
-								без объяснения причин отказа;
+								Der Computerclub „GamingGladius“ ist eine private Einrichtung,
+								daher hat die Verwaltung das Recht, jedem Kunden den Besuch des
+								Clubs ohne Angabe von Gründen zu verweigern;
 							</li>
 							<li>
-								Посетитель имеет право получить информацию о занятости
-								компьютеров в зале и о перспективах их освобождения.
+								Der Besucher hat das Recht, Informationen über die Belegung der
+								Computer im Raum und die Aussichten auf deren Freigabe zu
+								erhalten.
 							</li>
 							<li>
-								Посетитель имеет право в случае неисправности оборудования
-								требовать от администратора технической помощи, либо замены
-								компьютера на&nbsp; исправный.
+								Im Falle einer Gerätestörung hat der Besucher das Recht, vom
+								Administrator technische Hilfe zu verlangen oder den Computer
+								durch&nbsp; einen funktionierenden zu ersetzen.
 							</li>
 						</ol>
 
 						<p align='center' className={classes.rules__first_p}>
-							Для длительного и плодотворного сотрудничества просим вас
-							соблюдать данные правила клуба Cyberloga.
+							Für eine langfristige und fruchtbare Zusammenarbeit bitten wir
+							Sie, diese Regeln des GamingGladius-Clubs zu beachten.
 						</p>
 
-						<p align='center'>Благодарим за понимание.</p>
+						<p align='center'>Danke für dein Verständnis.</p>
 					</div>
 				</div>
 			</section>

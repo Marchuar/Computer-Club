@@ -24,24 +24,24 @@ function Header({ scroll }) {
 					<ul className={classes.header__list}>
 						<li className={classes.header__li}>
 							<Link to='/' className={classes.header__link}>
-								Главная
+								Hauptseite
 							</Link>
 						</li>
 
 						<li className={classes.header__li}>
 							<Link to='/prices' id='0' className={classes.header__link}>
-								Цены
+								Preise
 							</Link>
 						</li>
 
 						<li className={classes.header__li}>
 							<Link to='/rules' className={classes.header__link}>
-								Правила
+								Regeln
 							</Link>
 						</li>
 						<li className={classes.header__li}>
 							<Link to='/contacts' className={classes.header__link}>
-								Контакты
+								Kontakte
 							</Link>
 						</li>
 						<li className={classes.header__li}>

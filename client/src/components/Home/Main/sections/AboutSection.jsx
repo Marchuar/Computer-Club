@@ -12,18 +12,17 @@ function About() {
 				<div className={classes.about__content}>
 					<div className={classes.about__heading}>
 						<h2 className={classes.heading__h2}>
-							Хотите стать частью современного киберспорта одновременно в
-							реальном и виртуальном мирах?
+							Du möchtest Teil des modernen E-Sports in der realen und
+							virtuellen Welt gleichzeitig werden?
 						</h2>
 					</div>
 					<p className={classes.about__subtitle}>
-						Мы приглашаем вас в место, где вы обязательно встретите <br></br>{' '}
-						единомышленников - компьютерный клуб NAME!
+						Wir laden Sie an einen Ort ein, an dem Sie bestimmt Gleichgesinnte{' '}
+						<br></br> treffen werden - Computerclub "GamingGladius"!
 					</p>
 					<div className={classes.about__descr}>
 						<p>
-							Крупнейшая сеть игровых компьютерных клубов в Москве становится
-							культовым местом для каждого геймера. Здесь можно:
+							Computerclubs werden zum Kultort für jeden Gamer. Hier kannst du:
 						</p>
 					</div>
 					<ul className={classes.about__feature}>
@@ -33,10 +32,7 @@ function About() {
 							</div>
 
 							<div className={classes.about__feature_text}>
-								<p>
-									Завести новые знакомства с вдохновителями/любителями
-									киберспорта
-								</p>
+								<p>Knüpfen Sie neue Bekanntschaften mit eSport-Fans</p>
 							</div>
 						</li>
 
@@ -47,8 +43,8 @@ function About() {
 
 							<div className={classes.about__feature_text}>
 								<p>
-									Выплеснуть свои эмоции в состязаниях с виртуальными
-									противниками
+									Drücken Sie Ihre Emotionen in Wettbewerben mit virtuellen
+									Gegnern aus
 								</p>
 							</div>
 						</li>
@@ -60,7 +56,8 @@ function About() {
 
 							<div className={classes.about__feature_text}>
 								<p>
-									Войти в закрытое сообщество с уникальными игровыми турнирами
+									Treten Sie einer geschlossenen Community mit einzigartigen
+									Gaming-Turnieren bei
 								</p>
 							</div>
 						</li>
@@ -70,7 +67,10 @@ function About() {
 								<img max-width='100%' src={fourthIcon}></img>
 							</div>
 							<div className={classes.about__feature_text}>
-								<p>Стать настоящим киберспортсменом и получить ценные призы</p>
+								<p>
+									Werden Sie ein echter eSport-Spieler und erhalten Sie
+									wertvolle Preise
+								</p>
 							</div>
 						</li>
 					</ul>

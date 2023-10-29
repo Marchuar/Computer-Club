@@ -11,23 +11,23 @@ function Price() {
 			<div className={classes.price__innerBox}>
 				<div className={classes.price__content}>
 					<div className={classes.price__heading}>
-						<h2 className={classes.heading__h2}>Стоимость игры</h2>
+						<h2 className={classes.heading__h2}>Spielkosten</h2>
 					</div>
 
 					<div className={classes.price__text}>
 						<p>
-							Очень скоро у нас появится программа лояльности и ты сможешь
-							прикоснуться к закрытому и уникальному сообществу
-							единомышленников, где тебя ждёт океан эмоций, огромное количество
-							новых знакомств, ценные призы, приглашения на закрытые мероприятия
-							и скидки. Ты станешь одним из вдохновителей и творцов киберспорта
-							в России!
+							Sie können eine geschlossene und einzigartige Gemeinschaft von
+							Gleichgesinnten berühren, in der ein Ozean an Emotionen, eine
+							Vielzahl neuer Bekanntschaften, wertvolle Preise und Einladungen
+							zu geschlossenen Veranstaltungen zu geringen Kosten auf Sie
+							warten. Sie werden einer der Inspiratoren und Schöpfer des
+							eSports!
 						</p>
 					</div>
 
 					<div className={classes.price__button}>
 						<Link to='/prices' className={classes.price__button_a}>
-							Прайс-лист
+							Preisliste
 						</Link>
 					</div>
 				</div>
@@ -40,7 +40,7 @@ function Price() {
 							</div>
 
 							<div className={classes.price__table_descr}>
-								<span>Час</span>
+								<span>Stunde</span>
 								<b>59-89 рублей</b>
 							</div>
 						</div>
@@ -51,7 +51,7 @@ function Price() {
 							</div>
 
 							<div className={classes.price__table_descr}>
-								<span>Ночь</span>
+								<span>Nacht</span>
 								<b>399 рублей</b>
 							</div>
 						</div>
@@ -64,7 +64,7 @@ function Price() {
 							</div>
 
 							<div className={classes.price__table_descr}>
-								<span>Пакетные предложения</span>
+								<span>Paketangebote</span>
 								<b>от 150 рублей</b>
 							</div>
 						</div>
@@ -75,8 +75,8 @@ function Price() {
 							</div>
 
 							<div className={classes.price__table_descr}>
-								<span>Скидки и бонусы</span>
-								<b>постоянным клиентам</b>
+								<span>Rabatte und Boni</span>
+								<b>für Stammkunden</b>
 							</div>
 						</div>
 					</div>

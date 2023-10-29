@@ -38,24 +38,24 @@ function Header() {
 					<ul className={classes.header__list}>
 						<li className={classes.header__li}>
 							<Link to='/' className={classes.header__link}>
-								Главная
+								Hauptseite
 							</Link>
 						</li>
 
 						<li className={classes.header__li}>
 							<Link to='/prices' id='0' className={classes.header__link}>
-								Цены
+								Preise
 							</Link>
 						</li>
 
 						<li className={classes.header__li}>
 							<Link to='/rules' className={classes.header__link}>
-								Правила
+								Regeln
 							</Link>
 						</li>
 						<li className={classes.header__li}>
 							<Link to='/contacts' className={classes.header__link}>
-								Контакты
+								Kontakte
 							</Link>
 						</li>
 						<li className={classes.header__li}>
@@ -74,34 +74,32 @@ function Header() {
 			>
 				<div className={classes.header__content}>
 					<h1 className={classes.header__title}>
-						Компьютерный клуб <br></br>{' '}
-						<p className={classes.header__secondTitle}>
-							Идеальное место для геймеров
-						</p>
+						Computerclub <br></br>{' '}
+						<p className={classes.header__secondTitle}>Idealer Ort für Gamer</p>
 					</h1>
 				</div>
 				<div className={classes.header__advantages}>
 					<div className={classes.header__advantages_box}>
 						<h2 className={classes.advantages__h2}>24+</h2>
 						<p className={classes.advantages__description}>
-							Мощных игровых машин в одном клубе
+							Leistungsstarke Gaming-Computer in einem Club
 						</p>
 					</div>
 					<div className={classes.header__advantages_box}>
 						<h2 className={classes.advantages__h2}>50+</h2>
-						<p className={classes.advantages__description}>Современных игр</p>
+						<p className={classes.advantages__description}>Moderne Spiele</p>
 					</div>
 					<div className={classes.header__advantages_box}>
 						<h2 className={classes.advantages__h2}>24/7</h2>
 						<p className={classes.advantages__description}>
-							Компьютерные клубы работают круглосуточно и без выходных
+							Computerclubs sind 24 Stunden am Tag, 7 Tage die Woche geöffnet
 						</p>
 					</div>
 					<div className={classes.header__advantages_box}>
 						<h2 className={classes.advantages__h2}>200+</h2>
 						<p className={classes.advantages__description}>
-							Турниров планируется провести за ближайший год в компьютерных
-							клубах
+							Im Laufe des nächsten Jahres sind Turniere in Computerclubs
+							geplant
 						</p>
 					</div>
 				</div>

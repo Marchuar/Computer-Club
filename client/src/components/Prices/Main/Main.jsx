@@ -9,34 +9,36 @@ function Main({ scroll }) {
 				<div className={classes.main__container}>
 					<div className={classes.main__container}>
 						<div className={classes.main__heading}>
-							<h1 className={classes.main__heading_title}>Цены</h1>
+							<h1 className={classes.main__heading_title}>Preise</h1>
 						</div>
 					</div>
 
 					<div className={classes.main__text}>
 						<p className={classes.main__text_p}>
-							&nbsp;&nbsp;&nbsp;Для опытного геймера, который ищет компьютерный
-							клуб в Москве, цены бывают очень важны, ведь в киберспорте
-							соревнования могут длиться более суток. Поэтому в Cyberloga мы
-							установили минимальную стоимость часа, доступную каждому. Вы
-							можете выбрать почасовую тарификацию, а лучше – полный пакет,
-							тогда цена аренды игрового ПК за час будет самой низкой.
+							&nbsp;&nbsp;&nbsp;Für einen erfahrenen Spieler, der einen
+							Computerclub sucht, können die Preise sehr wichtig sein, da
+							Wettbewerbe im E-Sport mehr als einen Tag dauern können. Deshalb
+							haben wir bei GamingGladius einen Mindeststundensatz festgelegt,
+							der für jeden erschwinglich ist. Sie können zwischen
+							Stundenpreisen oder, noch besser, einem Komplettpaket wählen, dann
+							ist der Preis für die Miete eines Gaming-PCs pro Stunde am
+							niedrigsten.
 						</p>
 						<br></br>
 						<p className={classes.main__text_p}>
-							&nbsp;&nbsp;&nbsp;Учитывая мощнейшие и ультрасовременные машины,
-							высококачественные геймерские кресла от ведущих производителей,
-							стоимость посещения игрового клуба в Москве кажется смехотворной.
-							Более того, за эти деньги Вы становитесь неотъемлемой частью
-							киберспортивной команды.
+							&nbsp;&nbsp;&nbsp;Angesichts der leistungsstärksten und modernsten
+							Maschinen und hochwertigen Gaming-Stühlen führender Hersteller
+							erscheinen die Kosten für den Besuch eines Gaming-Clubs
+							lächerlich. Darüber hinaus werden Sie für dieses Geld ein fester
+							Bestandteil des eSports-Teams.
 						</p>
 						<br></br>
 						<p className={classes.main__text_p}>
-							&nbsp;&nbsp;&nbsp;Наши цены подойдут всем категориям
-							киберспортсменов, которые предпочитают играть в разное время
-							суток. При этом лучше отдать предпочтение пакету «На сутки». В
-							таком случае у Вас не будет абсолютно никаких ограничений в игре,
-							и Вы сможете неплохо сэкономить.
+							&nbsp;&nbsp;&nbsp;Unsere Preise eignen sich für alle Kategorien
+							von eSport-Spielern, die lieber zu unterschiedlichen Tageszeiten
+							spielen. In diesem Fall ist es besser, dem Paket „Für einen Tag“
+							den Vorzug zu geben. In diesem Fall haben Sie keinerlei
+							Einschränkungen im Spiel und können viel Geld sparen.
 						</p>
 					</div>
 
@@ -46,20 +48,20 @@ function Main({ scroll }) {
 								<table className={classes.table}>
 									<thead className={classes.table__thead}>
 										<tr>
-											<th>Аренда игровой машины!</th>
-											<th>Время</th>
-											<th>Цена Light</th>
-											<th>Цена Стандарт</th>
-											<th>Цена VIP</th>
+											<th>PC-Verleih</th>
+											<th>Zeit</th>
+											<th>Preis leicht</th>
+											<th>Preisstandard</th>
+											<th>VIP-Preis</th>
 										</tr>
 									</thead>
 									<tbody className={classes.table__tbody}>
 										<tr id='bx_3218110189_195955'>
 											<td>
-												<span>Часовой тариф</span>
+												<span>Stundensatz</span>
 											</td>
 											<td>
-												<span>Понедельник - Четверг с 14:00 до 5:00</span>
+												<span>Montag - Donnerstag von 14:00 bis 5:00 Uhr</span>
 											</td>
 											<td>
 												<span>59 р.</span>
@@ -75,10 +77,10 @@ function Main({ scroll }) {
 										</tr>
 										<tr id='bx_3218110189_195956'>
 											<td>
-												<span>Часовой тариф (выходные)</span>
+												<span>Stundensatz (Wochenenden)</span>
 											</td>
 											<td>
-												<span>Пятница - Воскресенье с 14:00 до 5:00</span>
+												<span>Freitag - Sonntag von 14:00 bis 17:00 Uhr</span>
 											</td>
 											<td>
 												<span>69 р.</span>
@@ -94,10 +96,10 @@ function Main({ scroll }) {
 										</tr>
 										<tr id='bx_3218110189_195957'>
 											<td>
-												<span>Часовой тариф "Утро"</span>
+												<span>Stundensatz „Morgen“</span>
 											</td>
 											<td>
-												<span>Понедельник - Пятница 05:00 до 14:00</span>
+												<span>Montag - Freitag 05:00 bis 14:00 Uhr</span>
 											</td>
 											<td>
 												<span>49 р.</span>
@@ -113,10 +115,10 @@ function Main({ scroll }) {
 										</tr>
 										<tr id='bx_3218110189_195958'>
 											<td>
-												<span>Часовой тариф "Утро (выходные)"</span>
+												<span>Stundensatz „Morgens (Wochenende)“</span>
 											</td>
 											<td>
-												<span>Суббота - Воскресенье с 05:00 до 14:00</span>
+												<span>Samstag - Sonntag von 05:00 bis 14:00 Uhr</span>
 											</td>
 											<td>
 												<span>49 р.</span>
@@ -132,10 +134,10 @@ function Main({ scroll }) {
 										</tr>
 										<tr id='bx_3218110189_195959'>
 											<td>
-												<span>Пакет "Ночевка"</span>
+												<span>Paket „Übernachtung“</span>
 											</td>
 											<td>
-												<span>Понедельник - Пятница с 22:00 до 08:00</span>
+												<span>Montag - Freitag von 22:00 bis 08:00 Uhr</span>
 											</td>
 											<td>
 												<span>349 р.</span>
@@ -151,10 +153,10 @@ function Main({ scroll }) {
 										</tr>
 										<tr id='bx_3218110189_195960'>
 											<td>
-												<span>Пакет "Ночевка (выходные)"</span>
+												<span>Paket „Übernachtung (Wochenende)“</span>
 											</td>
 											<td>
-												<span>Суббота - Воскресенье с 22:00 до 08:00</span>
+												<span>Samstag - Sonntag von 22:00 bis 08:00 Uhr</span>
 											</td>
 											<td>
 												<span>399 р.</span>

@@ -12,7 +12,7 @@ function Main({ scroll }) {
 				<div className={classes.main__container}>
 					<div className={classes.main__container}>
 						<div className={classes.main__heading}>
-							<h1 className={classes.main__heading_title}>Контакты</h1>
+							<h1 className={classes.main__heading_title}>Kontakte</h1>
 						</div>
 					</div>
 
@@ -46,13 +46,13 @@ function Main({ scroll }) {
 										className={classes.contacts__icon_time}
 									></img>
 									<span className={classes.contacts__text}>
-										Пн. - Вс.: круглосуточно
+										Пн. - Вс.: rund um die Uhr
 									</span>
 								</li>
 							</ul>
 							<p className={classes.content__info}>
-								По предложениям и вопросам о сотрудничестве в области маркетинга
-								и PR пишите на{' '}
+								Für Anregungen und Fragen zur Zusammenarbeit im Bereich
+								Marketing und PR schreiben Sie an{' '}
 								<a href='mailto:gilioko195@gmail.com'>gilioko195@gmail.com</a>
 							</p>
 						</div>
