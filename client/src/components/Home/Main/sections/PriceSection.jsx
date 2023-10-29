@@ -1,7 +1,7 @@
-import firstIcon from '../../../assets/style/Images/first_icon_price.png'
-import fourthIcon from '../../../assets/style/Images/fourth_icon_price.png'
-import secondIcon from '../../../assets/style/Images/second_icon_price.png'
-import thirdIcon from '../../../assets/style/Images/third_icon_price.png'
+import firstIcon from '../../../../assets/style/Images/first_icon_price.png'
+import fourthIcon from '../../../../assets/style/Images/fourth_icon_price.png'
+import secondIcon from '../../../../assets/style/Images/second_icon_price.png'
+import thirdIcon from '../../../../assets/style/Images/third_icon_price.png'
 import classes from './Price.module.css'
 
 function Price() {

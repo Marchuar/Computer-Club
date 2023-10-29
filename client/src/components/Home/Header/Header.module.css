@@ -1,7 +1,7 @@
 .header {
 	display: block;
 	background-color: #101c44;
-	background-image: url('../../assets/style/Images/page-header-bg.jpg');
+	background-image: url('../../../assets/style/Images/page-header-bg.jpg');
 	width: 100%;
 	background-size: cover;
 	background-position: center;

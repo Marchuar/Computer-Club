@@ -1,15 +1,17 @@
-import classes from './App.module.css'
-import Footer from './components/Footer/Footer.jsx'
-import Header from './components/Header/Header.jsx'
-import Main from './components/Main/Main.jsx'
+import { Route, Routes } from 'react-router-dom'
+import Contacts from './pages/Contacts/Contactspage'
+import Home from './pages/Home/Homepage'
+import Prices from './pages/Prices/Pricespage'
+import Rules from './pages/Rules/Rulespage'
 
 function App() {
 	return (
-		<div className={classes.main_page}>
-			<Header />
-			<Main />
-			<Footer />
-		</div>
+		<Routes>
+			<Route path='/' element={<Home />}></Route>
+			<Route path='/prices' element={<Prices />}></Route>
+			<Route path='/rules' element={<Rules />}></Route>
+			<Route path='/contacts' element={<Contacts />}></Route>
+		</Routes>
 	)
 }
 

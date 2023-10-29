@@ -1,8 +1,8 @@
-import BGAbout from '../../../assets/style/Images/background_img_about.png'
-import firstIcon from '../../../assets/style/Images/first_icon_about.png'
-import fourthIcon from '../../../assets/style/Images/fourth_icon_about.png'
-import secondIcon from '../../../assets/style/Images/second_icon_about.png'
-import thirdIcon from '../../../assets/style/Images/third_icon_about.png'
+import BGAbout from '../../../../assets/style/Images/background_img_about.png'
+import firstIcon from '../../../../assets/style/Images/first_icon_about.png'
+import fourthIcon from '../../../../assets/style/Images/fourth_icon_about.png'
+import secondIcon from '../../../../assets/style/Images/second_icon_about.png'
+import thirdIcon from '../../../../assets/style/Images/third_icon_about.png'
 import classes from './About.module.css'
 
 function About() {
