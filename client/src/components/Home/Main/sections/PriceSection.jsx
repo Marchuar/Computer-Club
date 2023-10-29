@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import firstIcon from '../../../../assets/style/Images/first_icon_price.png'
 import fourthIcon from '../../../../assets/style/Images/fourth_icon_price.png'
 import secondIcon from '../../../../assets/style/Images/second_icon_price.png'
@@ -25,7 +26,9 @@ function Price() {
 					</div>
 
 					<div className={classes.price__button}>
-						<a className={classes.price__button_a}>Прайс-лист</a>
+						<Link to='/prices' className={classes.price__button_a}>
+							Прайс-лист
+						</Link>
 					</div>
 				</div>
 
