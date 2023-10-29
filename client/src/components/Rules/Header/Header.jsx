@@ -23,6 +23,12 @@ function Header({ scroll }) {
 				<nav className={classes.header__nav}>
 					<ul className={classes.header__list}>
 						<li className={classes.header__li}>
+							<Link to='/' className={classes.header__link}>
+								Главная
+							</Link>
+						</li>
+
+						<li className={classes.header__li}>
 							<Link to='/prices' id='0' className={classes.header__link}>
 								Цены
 							</Link>
