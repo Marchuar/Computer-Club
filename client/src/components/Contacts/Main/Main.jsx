@@ -25,7 +25,7 @@ function Main({ scroll }) {
 										className={classes.contacts__icon_phone}
 									></img>
 									<a className={classes.contacts__link} href='tel:+74950152662'>
-										+7 (495) 015-26-62
+										+49 152 09782055
 									</a>
 								</li>
 								<li className={classes.contacts__item}>
