@@ -37,7 +37,7 @@ function Main({ scroll }) {
 										className={classes.contacts__link}
 										href='mailto:info@cyberloga.ru'
 									>
-										info@cyberloga.ru
+										gilioko195@gmail.com
 									</a>
 								</li>
 								<li className={classes.contacts__item}>
