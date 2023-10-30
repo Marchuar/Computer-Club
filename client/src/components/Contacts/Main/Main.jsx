@@ -46,7 +46,7 @@ function Main({ scroll }) {
 										className={classes.contacts__icon_time}
 									></img>
 									<span className={classes.contacts__text}>
-										Пн. - Вс.: rund um die Uhr
+										Mo. - So.: rund um die Uhr
 									</span>
 								</li>
 							</ul>
