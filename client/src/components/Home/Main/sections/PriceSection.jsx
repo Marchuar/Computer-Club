@@ -75,7 +75,7 @@ function Price() {
 							</div>
 
 							<div className={classes.price__table_descr}>
-								<span>Rabatte und Boni</span>
+								<span>Rabatte</span>
 								<b>für Stammkunden</b>
 							</div>
 						</div>

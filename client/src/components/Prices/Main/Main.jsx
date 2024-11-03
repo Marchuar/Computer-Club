@@ -60,7 +60,7 @@ function Main({ scroll }) {
 												<span>Stundensatz</span>
 											</td>
 											<td>
-												<span>Montag - Donnerstag von 14:00 bis 5:00 Uhr</span>
+												<span>Montag - Freitag von 14:00 bis 5:00 Uhr</span>
 											</td>
 											<td>
 												<span>2,99 Euro</span>
@@ -75,7 +75,7 @@ function Main({ scroll }) {
 												<span>Stundensatz (Wochenenden)</span>
 											</td>
 											<td>
-												<span>Freitag - Sonntag von 14:00 bis 17:00 Uhr</span>
+												<span>Samstag - Sonntag von 14:00 bis 17:00 Uhr</span>
 											</td>
 
 											<td>
