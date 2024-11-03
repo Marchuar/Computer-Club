@@ -24,8 +24,8 @@ function Main({ scroll }) {
 										src={firstIcon}
 										className={classes.contacts__icon_phone}
 									></img>
-									<a className={classes.contacts__link} href='tel:+74950152662'>
-										+49 152 09782055
+									<a className={classes.contacts__link} href='tel:+4915209782051'>
+										+49 152 09782051
 									</a>
 								</li>
 								<li className={classes.contacts__item}>
@@ -35,7 +35,7 @@ function Main({ scroll }) {
 									></img>
 									<a
 										className={classes.contacts__link}
-										href='mailto:info@cyberloga.ru'
+										href='gilioko195@gmail.com'
 									>
 										gilioko195@gmail.com
 									</a>

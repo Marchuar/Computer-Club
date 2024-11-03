@@ -50,7 +50,6 @@ function Main({ scroll }) {
 										<tr>
 											<th>PC-Verleih</th>
 											<th>Zeit</th>
-											<th>Preis leicht</th>
 											<th>Preisstandard</th>
 											<th>VIP-Preis</th>
 										</tr>
@@ -64,7 +63,35 @@ function Main({ scroll }) {
 												<span>Montag - Donnerstag von 14:00 bis 5:00 Uhr</span>
 											</td>
 											<td>
-												<span>1,99 Euro</span>
+												<span>2,99 Euro</span>
+											</td>
+
+											<td>
+												<span>4,49 Euro</span>
+											</td>
+										</tr>
+										<tr id='bx_3218110189_195956'>
+											<td>
+												<span>Stundensatz (Wochenenden)</span>
+											</td>
+											<td>
+												<span>Freitag - Sonntag von 14:00 bis 17:00 Uhr</span>
+											</td>
+
+											<td>
+												<span>3,49 Euro</span>
+											</td>
+
+											<td>
+												<span>4,99 Euro</span>
+											</td>
+										</tr>
+										<tr id='bx_3218110189_195957'>
+											<td>
+												<span>Stundensatz „Morgen“</span>
+											</td>
+											<td>
+												<span>Montag - Freitag 05:00 bis 14:00 Uhr</span>
 											</td>
 
 											<td>
@@ -75,44 +102,6 @@ function Main({ scroll }) {
 												<span>3,99 Euro</span>
 											</td>
 										</tr>
-										<tr id='bx_3218110189_195956'>
-											<td>
-												<span>Stundensatz (Wochenenden)</span>
-											</td>
-											<td>
-												<span>Freitag - Sonntag von 14:00 bis 17:00 Uhr</span>
-											</td>
-											<td>
-												<span>2,29 Euro</span>
-											</td>
-
-											<td>
-												<span>2,99 Euro</span>
-											</td>
-
-											<td>
-												<span>4,49 Euro</span>
-											</td>
-										</tr>
-										<tr id='bx_3218110189_195957'>
-											<td>
-												<span>Stundensatz „Morgen“</span>
-											</td>
-											<td>
-												<span>Montag - Freitag 05:00 bis 14:00 Uhr</span>
-											</td>
-											<td>
-												<span>1,49 Euro</span>
-											</td>
-
-											<td>
-												<span>2,19 Euro</span>
-											</td>
-
-											<td>
-												<span>3,19 Euro</span>
-											</td>
-										</tr>
 										<tr id='bx_3218110189_195958'>
 											<td>
 												<span>Stundensatz „Morgens (Wochenende)“</span>
@@ -120,16 +109,13 @@ function Main({ scroll }) {
 											<td>
 												<span>Samstag - Sonntag von 05:00 bis 14:00 Uhr</span>
 											</td>
+
 											<td>
-												<span>1,69 Euro</span>
+												<span>2,99 Euro</span>
 											</td>
 
 											<td>
-												<span>2,39 Euro</span>
-											</td>
-
-											<td>
-												<span>3,39 Euro</span>
+												<span>4,19 Euro</span>
 											</td>
 										</tr>
 										<tr id='bx_3218110189_195959'>
@@ -139,16 +125,13 @@ function Main({ scroll }) {
 											<td>
 												<span>Montag - Freitag von 22:00 bis 08:00 Uhr</span>
 											</td>
+
 											<td>
-												<span>11,99 Euro</span>
+												<span>14,99 Euro</span>
 											</td>
 
 											<td>
-												<span>13,99 Euro</span>
-											</td>
-
-											<td>
-												<span>15,99 Euro</span>
+												<span>16,99 Euro</span>
 											</td>
 										</tr>
 										<tr id='bx_3218110189_195960'>
@@ -158,16 +141,13 @@ function Main({ scroll }) {
 											<td>
 												<span>Samstag - Sonntag von 22:00 bis 08:00 Uhr</span>
 											</td>
+
 											<td>
-												<span>12,99 Euro</span>
+												<span>15,99 Euro</span>
 											</td>
 
 											<td>
-												<span>14,99 Euro</span>
-											</td>
-
-											<td>
-												<span>16,99 Euro</span>
+												<span>17,99 Euro</span>
 											</td>
 										</tr>
 									</tbody>

@@ -41,7 +41,7 @@ function Price() {
 
 							<div className={classes.price__table_descr}>
 								<span>Stunde</span>
-								<b>1,99-3,99 Euro</b>
+								<b>2,99-4,99 Euro</b>
 							</div>
 						</div>
 
